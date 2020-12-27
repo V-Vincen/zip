@@ -26,8 +26,9 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+**/src/main/**/build/
+
+\**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
@@ -109,8 +110,6 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
-out/
-
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
@@ -194,3 +193,6 @@ local.properties
 # Typically, this file would be tracked if it contains build/dependency configurations:
 #.project
 
+.mvn/**
+mvnw
+mvnw.cmd
