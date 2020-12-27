@@ -22,7 +22,6 @@ import java.util.zip.ZipOutputStream;
  * @author vincent
  */
 public class ZipTest {
-
     @Test
     public void zipFile() throws Exception {
         //压缩文件

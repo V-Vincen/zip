@@ -27,7 +27,6 @@ import java.util.List;
  * @author vincent
  */
 public class Zip4jTest {
-
     @Test
     public void packAddFile() throws ZipException {
         /*
@@ -160,8 +159,6 @@ public class Zip4jTest {
                 }).unchecked()
         );
     }
-
-
 }
 
 
