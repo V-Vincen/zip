@@ -107,7 +107,6 @@ cmake-build-*/
 .idea/**/mongoSettings.xml
 
 # File-based project format
-*.iws
 
 # IntelliJ
 # mpeltonen/sbt-idea plugin
@@ -160,7 +159,6 @@ local.properties
 .autotools
 
 # Java annotation processor (APT)
-.factorypath
 
 # PDT-specific (PHP Development Tools)
 .buildpath
@@ -175,7 +173,6 @@ local.properties
 .texlipse
 
 # STS (Spring Tool Suite)
-.springBeans
 
 # Code Recommenders
 .recommenders/
@@ -196,3 +193,5 @@ local.properties
 .mvn/**
 mvnw
 mvnw.cmd
+!/dirtest/jdkziptest/out/
+!/dirtest/zip4jtest/out/
